@@ -1,6 +1,6 @@
 # React Server-Side Rendering (SSR) Demo
 
-This is a simple example of rendering React components server side.
+This is a simple example of rendering React components server side, when ur primary web server is not Node.js.
 
 ## How to run
 
