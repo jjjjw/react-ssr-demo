@@ -48,7 +48,7 @@ class HelloHandler(web.RequestHandler):
 
         app_html = yield ssr("/hello", page_data)
 
-        self.render("index.html", app_html=app_html, page_data=json_dumps(page_data))
+        self.render("hello.html", app_html=app_html, page_data=json_dumps(page_data))
 
 
 application = web.Application([
