@@ -1,0 +1,13 @@
+<html>
+
+<head>
+  <title>SSR Demo</title>
+</head>
+
+<body>
+  <div id="app-container">{% if app_html %}{% raw app_html %}{% end %}</div>
+  <div id="page-data" data-page="{{ page_data }}"></div>
+  <script src="{{ static_url('App.js') }}" type="text/javascript"></script>
+</body>
+
+</html>
